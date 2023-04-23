@@ -48,27 +48,29 @@ public class MenuScreen extends JFrame implements GameConstants{
         buttonPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
         add(buttonPanel);
 
-        // Create button icons
+        // Create button icons and labels
         ArrayList<ImageIcon> buttonIcons = new ArrayList<>();
         buttonIcons.add(new ImageIcon(new ImageIcon("src//img//icons//dino.png").getImage().getScaledInstance(500, 500, Image.SCALE_SMOOTH)));
         buttonIcons.add(new ImageIcon(new ImageIcon("src//img//icons//gundam.png").getImage().getScaledInstance(500, 500, Image.SCALE_SMOOTH)));
         
+        ArrayList<String> buttonLabels = new ArrayList<>();
+        buttonLabels.add("Dino Game");
+        buttonLabels.add("Gundam Game");
 
         // Add buttons to panel
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
         c.gridy = 0;
-        c.weightx = 1.0;
-        c.weighty = 1.0;
+        c.weightx = 0.5;
+        c.weighty = 0.5;
         c.fill = GridBagConstraints.BOTH;
-        c.insets = new Insets(10, 10, 10, 10);
+        c.insets = new Insets(5, 5, 5, 5);
         for (int index = 0; index < buttonIcons.size(); index++) {
             final int i = index;
             JButton button = new JButton(buttonIcons.get(i));
-            button.setPreferredSize(new Dimension(50, 50));
+            button.setPreferredSize(new Dimension(buttonIcons.get(i).getImage().getWidth(null), buttonIcons.get(i).getImage().getHeight(null)));
             button.setBorder(BorderFactory.createEmptyBorder());
             button.setContentAreaFilled(false);
-            buttonPanel.add(button, c);
             button.setOpaque(false);
             button.setBorderPainted(false);
             button.setIcon(buttonIcons.get(i));
@@ -91,8 +93,23 @@ public class MenuScreen extends JFrame implements GameConstants{
                     }
                 }
             });
+            
+            // Create and add label for the button
+            JLabel label = new JLabel(buttonLabels.get(i));
+            label.setFont(new Font("Arial", Font.PLAIN, 18));
+            label.setHorizontalAlignment(SwingConstants.CENTER);
+            label.setVerticalAlignment(SwingConstants.TOP);
+            label.setForeground(Color.WHITE);
+            buttonPanel.add(button, c);
+            c.gridy++;
+            buttonPanel.add(label, c);
+        
             c.gridx++;
+            c.gridy = 0;
+
         }
+        
+
 
         add(buttonPanel);
         setVisible(true);
