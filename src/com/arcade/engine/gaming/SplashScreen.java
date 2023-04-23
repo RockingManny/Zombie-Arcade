@@ -22,6 +22,7 @@ public class SplashScreen extends JFrame implements GameConstants{
         setTitle("ARCADE");
         setSize(SCREENWIDTH,SCREENHEIGHT);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setExtendedState(MAXIMIZED_BOTH);
         setLocationRelativeTo(null);
 
         JPanel panel = new JPanel(new GridBagLayout());
