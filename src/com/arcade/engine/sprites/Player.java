@@ -1,7 +1,6 @@
 package com.arcade.engine.sprites;
 
 import javax.imageio.ImageIO;
-
 import com.arcade.engine.utils.SpriteImageUtils;
 public class Player extends CommonPlayer {
 	

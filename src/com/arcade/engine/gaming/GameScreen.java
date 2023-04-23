@@ -7,7 +7,7 @@ import com.arcade.engine.utils.GameConstants;
 
 public class GameScreen extends JFrame implements GameConstants {
 	
-	public GameScreen() throws Exception {
+	public GameScreen(int i) throws Exception {
 		// setResizable(false);
 		// setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// setExtendedState(MAXIMIZED_BOTH);
@@ -16,6 +16,7 @@ public class GameScreen extends JFrame implements GameConstants {
 		// GameBoard board = new GameBoard();
 		// add(board);
 		// setVisible(true);
+		System.out.println(i);
 		javax.swing.SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				new DinoJumpGUI().createGUI();

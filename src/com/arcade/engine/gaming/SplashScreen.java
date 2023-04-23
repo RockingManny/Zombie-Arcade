@@ -18,7 +18,6 @@ import java.awt.event.MouseEvent;
 public class SplashScreen extends JFrame implements GameConstants{
     
     public SplashScreen(){
-        System.out.println("Working");
         setResizable(false);
         setTitle("ARCADE");
         setSize(SCREENWIDTH,SCREENHEIGHT);
@@ -55,7 +54,7 @@ public class SplashScreen extends JFrame implements GameConstants{
                 try {
                     setVisible(false);
                     dispose();
-                    new GameScreen();
+                    new MenuScreen();
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }
@@ -65,7 +64,7 @@ public class SplashScreen extends JFrame implements GameConstants{
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
         c.gridy = 0;
-        c.insets = new Insets(0, 0, 0, 0); // top, left, bottom, right
+        c.insets = new Insets(0, 0, 20, 20); // top, left, bottom, right
         panel.add(startButton, c);
 
         add(panel);
