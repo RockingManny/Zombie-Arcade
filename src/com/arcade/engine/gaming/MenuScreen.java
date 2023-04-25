@@ -114,8 +114,4 @@ public class MenuScreen extends JFrame implements GameConstants{
         add(buttonPanel);
         setVisible(true);
     }
-       
-    public static void main(String[] args) {
-        new SplashScreen();
-    }
 }
