@@ -31,7 +31,6 @@ Player:
     Ø Enter : Power move
 
 Opponent:
-
     Ø W: Jump
     Ø S: Crouch (TBD)
     Ø D : Move right
