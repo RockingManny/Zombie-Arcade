@@ -1,8 +1,12 @@
-# Java-Retro-Game
-## Created by RockingManny
-PvP Retro Game Build
+# ZOMBIE-ARCADE
+## Created by Manimit Haldar, Priyanka Garg, Shreya Umrao and Tanya Rajpoot
+Platform for Retro Games
 
-How to run Game :
+## List of Games
+- Dino Jump
+- Gundam Fighter
+
+How to run the Software :
 
     -> download repo in local machine.
     -> run the GAME.exe file
@@ -11,18 +15,12 @@ Notice:
 
 This is still under continuous development... so, please look out for updates almost every now and then.
 
-Features added :
+Control Schemes:
 
-    · Power move.
-    · Health bar.
-    · Player flip in case position is interchanged.
-    · Automated background eraser
-          o This feature is best for application on any sprite.
-          o The module removes background colour from sprite sheets automatically
-    · Camera Pan Effect
-    · Game playable through .exe file.
+## DINO JUMP
+    Ø Space : Jump
 
-Control Schemes: 
+## GUNDAM FIGHTER 
 Player:
      
     Ø Up : Jump
