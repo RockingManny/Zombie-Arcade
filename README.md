@@ -2,7 +2,7 @@
 ## Created by Manimit Haldar, Priyanka Garg, Shreya Umrao and Tanya Rajpoot
 Platform for Retro Games
 
-##List of Games
+## List of Games
 - Dino Jump
 - Gundam Fighter
 
@@ -17,10 +17,10 @@ This is still under continuous development... so, please look out for updates al
 
 Control Schemes:
 
-##DINO JUMP
+## DINO JUMP
     Ø Space : Jump
 
-##GUNDAM FIGHTER 
+## GUNDAM FIGHTER 
 Player:
      
     Ø Up : Jump
