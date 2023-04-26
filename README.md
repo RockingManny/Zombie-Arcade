@@ -13,8 +13,9 @@ Platform for Retro Games
 - Dino Jump
 - Gundam Fighter
 
-## ScreenShots
-    -> Start Screen
+ScreenShots
+
+    -> Start Screen    
     ![Splash Screen](https://github.com/RockingManny/Zombie-Arcade/blob/main/screenshot/SplashScreen.jpeg)
 
     -> Menu Screen
