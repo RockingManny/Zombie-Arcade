@@ -76,21 +76,21 @@ This is still under continuous development... so, please look out for updates al
 Control Schemes:
 
 ## DINO JUMP
-    Ø Space : Jump
+    Space : Jump
 
 ## GUNDAM FIGHTER 
 Player:
-    Ø Up : Jump
-    Ø Down : Crouch (TBD)
-    Ø Right : Move right
-    Ø Left: Move left
-    Ø P : punch
-    Ø Enter : Power move
+    Up : Jump
+    Down : Crouch (TBD)
+    Right : Move right
+    Left: Move left
+    P : punch
+    Enter : Power move
 
 Opponent:
-    Ø W: Jump
-    Ø S: Crouch (TBD)
-    Ø D : Move right
-    Ø A: Move left
-    Ø Q : Attack
-    Ø Space : Power move (TBD)S
+    W: Jump
+    S: Crouch (TBD)
+    D : Move right
+    A: Move left
+    Q : Attack
+    Space : Power move (TBD)
