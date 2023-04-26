@@ -22,7 +22,6 @@ Control Schemes:
 
 ## GUNDAM FIGHTER 
 Player:
-     
     Ø Up : Jump
     Ø Down : Crouch (TBD)
     Ø Right : Move right
@@ -31,7 +30,6 @@ Player:
     Ø Enter : Power move
 
 Opponent:
-
     Ø W: Jump
     Ø S: Crouch (TBD)
     Ø D : Move right
